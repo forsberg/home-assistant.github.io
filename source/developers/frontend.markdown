@@ -44,10 +44,10 @@ After cloning, your folder structure should look like this:
 /home-assistant-polymer
 ```
 
-Node.js is required to build the frontend. The preferred method of installing node.js is with [nvm](https://github.com/creationix/nvm). Install nvm using the instructions in the [README](https://github.com/creationix/nvm#install-script), and install the correct node.js by running the following command:
+Node.js is required to build the frontend. The preferred method of installing node.js is with [nvm](https://github.com/creationix/nvm). Install nvm using the instructions in the [README](https://github.com/creationix/nvm#install-script), and install the correct node.js by first changing your working directory to home-assistant-polymer, then run the following command:
 
 ```bash
-$ nvm install node
+$ nvm install
 ```
 
 [Yarn](https://yarnpkg.com/en/) is used as the package manager for node modules. [Install yarn using the instructions here.](https://yarnpkg.com/en/docs/install)
